@@ -53,7 +53,7 @@ public class GeometryType extends AbstractSingleColumnStandardBasicType<Geometry
 
 	@Override
 	public String getName() {
-		return "geometry";
+        return getClass().getName();
 	}
 
 }
